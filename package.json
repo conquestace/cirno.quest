@@ -1,5 +1,5 @@
 {
-  "name": "cirno-quest",
+  "name": "cirno.quest",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,8 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@use-gesture/react": "^10.3.1",
+    "gsap": "^3.12.5",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-snowfall": "^2.2.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.13.0",
