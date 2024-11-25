@@ -1,2 +1,2 @@
 # cirno.quest
-❄️(Live)[https://cirno.quest]❄️
+❄️[Live](https://cirno.quest)❄️
