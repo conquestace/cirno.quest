@@ -1,5 +1,6 @@
 import React from "react";
 import Snowfall from "react-snowfall";
+import cirnoCowTrolley from "./assets/0323-1girl, cirno, fighting stance, train, fr-noobaiXLNAIXL_earlyAccessVersion-605573019.png"
 
 const App: React.FC = () => {
   return (
@@ -23,11 +24,16 @@ const App: React.FC = () => {
         <p className="text-lg mb-8">
           coolest place
         </p>
+              {/* Display the Image */}
+      <img
+        src={cirnoCowTrolley}
+        alt="Cirno"
+        className="w-1/2 rounded-lg shadow-lg"
+      />
         <a
           href="#about"
           className="bg-white text-cirnoBlue px-6 py-3 rounded-lg shadow-lg hover:bg-blue-100"
         >
-          b
         </a>
       </section>
 
